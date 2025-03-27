@@ -1,0 +1,10 @@
+.warpper{
+    background-color: red;
+    color: white;
+    margin: 10%;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
