@@ -4,6 +4,10 @@ import Layout from "./layout/layout";
 import Home from "./Home/Home";
 import HOC from "./HOC/HOC";
 import Context from "./ContextHook/Context";
+import MemoComp from "./Memo/MemoComp";
+import ReduxComp from "./Redux/redux";
+import Refcomp from "./Ref/refcomp";
+import Callbacks from "./Callbacks/Callbacks";
 
 // BrowserRouter
 //BrowserRouter is a component from the react-router-dom library
@@ -30,6 +34,10 @@ function App() {
           <Route index element={<Home/>} />
           <Route path="/hoc" element={<HOC/>} />
           <Route path="/context" element={<Context/>} />
+          <Route path="/memo" element={<MemoComp/>} />
+          <Route path="/redux" element={<ReduxComp/>} />
+          <Route path="/ref" element={<Refcomp/>} />
+          <Route path="/callback" element={<Callbacks/>} />
           <Route path="*" element={"Page not found"} />
         </Route>
       </Routes>

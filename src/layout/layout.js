@@ -15,6 +15,18 @@ const Layout = () => {
           <li className="list">
             <Link to="/context">Context</Link>
           </li>
+          <li className="list">
+            <Link to="/memo">Memo</Link>
+          </li>
+          <li className="list">
+            <Link to="/redux">Redux</Link>
+          </li>
+          <li className="list">
+            <Link to="/ref">Ref</Link>
+          </li>
+          <li className="list">
+            <Link to="/callback">Callbacks</Link>
+          </li>
         </ul>
       </nav>
 
