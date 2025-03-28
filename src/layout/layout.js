@@ -27,6 +27,12 @@ const Layout = () => {
           <li className="list">
             <Link to="/callback">Callbacks</Link>
           </li>
+          <li className="list">
+            <Link to="/custom">Custom</Link>
+          </li>
+          <li className="list">
+            <Link to="/effect">Effect</Link>
+          </li>
         </ul>
       </nav>
 

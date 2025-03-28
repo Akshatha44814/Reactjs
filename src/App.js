@@ -8,6 +8,8 @@ import MemoComp from "./Memo/MemoComp";
 import ReduxComp from "./Redux/redux";
 import Refcomp from "./Ref/refcomp";
 import Callbacks from "./Callbacks/Callbacks";
+import CustomHook from "./CustomHook/CustomHook";
+import Effects from "./EffectHook/Effects";
 
 // BrowserRouter
 //BrowserRouter is a component from the react-router-dom library
@@ -38,6 +40,8 @@ function App() {
           <Route path="/redux" element={<ReduxComp/>} />
           <Route path="/ref" element={<Refcomp/>} />
           <Route path="/callback" element={<Callbacks/>} />
+          <Route path="/custom" element={<CustomHook/>} />
+          <Route path="/effect" element={<Effects/>} />
           <Route path="*" element={"Page not found"} />
         </Route>
       </Routes>
