@@ -33,6 +33,9 @@ const Layout = () => {
           <li className="list">
             <Link to="/effect">Effect</Link>
           </li>
+          <li className="list">
+            <Link to="/props">Props</Link>
+          </li>
         </ul>
       </nav>
 
