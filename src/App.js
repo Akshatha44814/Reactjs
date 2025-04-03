@@ -11,6 +11,9 @@ import Callbacks from "./Callbacks/Callbacks";
 import CustomHook from "./CustomHook/CustomHook";
 import Effects from "./EffectHook/Effects";
 import Parent from "./Props/parent";
+import SearchItem from "./Search/search";
+import Todo from "./Todo/todo";
+import Timer from "./Timer/timer";
 
 // BrowserRouter
 //BrowserRouter is a component from the react-router-dom library
@@ -44,6 +47,9 @@ function App() {
           <Route path="/custom" element={<CustomHook/>} />
           <Route path="/effect" element={<Effects/>} />
           <Route path="/props" element={<Parent/>} />
+          <Route path="/search" element={<SearchItem/>} />
+          <Route path="/todo" element={<Todo/>} />
+          <Route path="/timer" element={<Timer/>} />
           <Route path="*" element={"Page not found"} />
         </Route>
       </Routes>
