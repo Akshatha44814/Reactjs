@@ -14,6 +14,8 @@ import Parent from "./Props/parent";
 import SearchItem from "./Search/search";
 import Todo from "./Todo/todo";
 import Timer from "./Timer/timer";
+import SuspenceComp from "./Suspence/Suspence";
+import RegisterForm from "./form/form";
 
 // BrowserRouter
 //BrowserRouter is a component from the react-router-dom library
@@ -50,6 +52,9 @@ function App() {
           <Route path="/search" element={<SearchItem/>} />
           <Route path="/todo" element={<Todo/>} />
           <Route path="/timer" element={<Timer/>} />
+          <Route path="/suspence" element={<SuspenceComp/>} />
+          <Route path="/form" element={<RegisterForm/>} />
+
           <Route path="*" element={"Page not found"} />
         </Route>
       </Routes>

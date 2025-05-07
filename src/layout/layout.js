@@ -45,6 +45,12 @@ const Layout = () => {
           <li className="list">
             <Link to="/timer">Timer</Link>
           </li>
+          <li className="list">
+            <Link to="/suspence">Suspence</Link>
+          </li>
+          <li className="list">
+            <Link to="/form">Form</Link>
+          </li>
         </ul>
       </nav>
 
